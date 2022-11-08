@@ -48,10 +48,10 @@ let student3 = {
     program:"CIT"
 };
 
-let students = [student1,student2,student3]
+let students = [student1,student2,student3];
 counter = 0;
 for (let i=0;i<students.length;i++){
-    if (students.program ==="CIT" && students.GPA > 3){
+    if ((students[i].program ==="CIT") && (students[i].GPA > 3)){
         counter+=1;
     }
 };
